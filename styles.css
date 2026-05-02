@@ -1,0 +1,233 @@
+</> CSS
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, input, select, textarea, button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #F7F8FA;
+  color: #1F2937;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Centered container */
+.container {
+  width: min(100% - 32px, 760px);
+  margin: 0 auto;
+  padding: 24px 0 40px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #1279e2;
+  font-weight: 600;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Cards */
+.card {
+  background: #FFFFFF;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+h3 {
+  margin-top: 0;
+}
+
+/* Form */
+label {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 60px;
+}
+
+/* Button */
+button {
+  background: #2563EB;
+  color: white;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #1E4FD8;
+}
+
+.secondary-btn {
+  background: #E5E7EB;
+  color: #1F2937;
+}
+
+.secondary-btn:hover {
+  background: #D1D5DB;
+}
+
+/* Notes */
+.note {
+  font-size: 14px;
+  color: #4B5563;
+  margin-top: 12px;
+}
+
+/* Status */
+.status {
+  font-weight: bold;
+  padding: 12px;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.ready { color: #16A34A; }
+.warn { color: #D97706; }
+.bad { color: #DC2626; }
+
+/* Report */
+.report {
+  margin-top: 30px;
+}
+
+.report-section {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Links */
+a {
+  color: #2563EB;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    width: min(100% - 20px, 760px);
+    padding-top: 16px;
+  }
+
+  .header {
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .card {
+    padding: 16px;
+    margin: 14px 0;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 16px; /* prevents mobile zoom */
+  }
+
+  button {
+    padding: 13px;
+  }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #6B7280;
+}
+
+.footer a {
+  color: #2563EB;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.export-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.export-title {
+  color: #2563EB;
+  margin: 0;
+}
+
+.export-date {
+  font-size: 16px;
+  color: #6B7280;
+  margin-top: -6px;
+  margin-bottom: 12px;
+}
+
+.footer p {
+  margin: 4px 0;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GlobeKit Thailand Drone Trip Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+  <img src="assets/globekit-icon.png" class="logo">
+  <h1><strong>GlobeKit</strong> - Thailand Drone Trip Planner</h1>
+</div>
+
+  <!-- How to use -->
+  <div class="card">
+    <h2>How to use this tool</h2>
+    <p>Work through each step as you plan your trip. Mark steps as done only when you have completed them and added key details.</p>
+    <p>Your progress is saved automatically. When you are ready, generate your plan and export it for travel.</p>
+  </div>
+
+  <!-- Steps -->
+  <div id="steps"></div>
+
+  <!-- Generate -->
+  <button id="generateBtn">Generate Plan</button>
+<button id="clearBtn" class="secondary-btn">Clear Saved Plan</button>
+<p class="note">
+  This tool is a planning aid only. You are responsible for verifying current rules, permits, airspace restrictions, and airline requirements with official sources before traveling or flying.
+</p>
+
+  <!-- Output -->
+    <div id="output"></div>
+
+  <div class="footer">
+    <p>Built by GlobeKit - Practical travel-tech guides</p>
+    <p>
+    <a href="https://globekit.net" target="_blank">GlobeKit.net</a> |
+    <a href="https://www.youtube.com/@GlobeKit" target="_blank">YouTube</a> |
+    <a href="https://x.com/@globe_kit" target="_blank">X</a>
+  </p>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
